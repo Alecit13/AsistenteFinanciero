@@ -3,8 +3,7 @@ uvicorn==0.29.0
 
 python-dotenv==1.0.1
 
-supabase==2.4.3
-postgrest==0.13.0
+supabase==2.4.3     # trae postgrest>=0.14,<0.17 automáticamente
 
 transformers==4.38.2
 huggingface-hub==0.20.3

@@ -1,0 +1,18 @@
+fastapi==0.110.0
+uvicorn[standard]==0.29.0
+
+python-dotenv==1.0.1
+
+supabase==2.4.3
+postgrest==0.13.0
+
+transformers==4.38.2
+huggingface-hub==0.20.3
+
+setfit==1.0.3
+
+torch==2.2.1 --extra-index-url https://download.pytorch.org/whl/cpu
+
+numpy==1.26.4
+pydantic==2.6.4
+requests==2.31.0

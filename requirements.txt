@@ -1,13 +1,17 @@
 fastapi==0.110.0
-uvicorn==0.29.0
-
+uvicorn[standard]==0.29.0
 python-dotenv==1.0.1
 
-supabase==2.4.3     # trae postgrest>=0.14,<0.17 automáticamente
+supabase==2.4.3
 
 transformers==4.38.2
 huggingface-hub==0.20.3
-
+sentence-transformers==2.2.2
 setfit==1.0.3
 
-torch==2.5.1 --index-url https://download.pytorch.org/whl/cpu
+torch==2.0.1
+numpy
+pydantic>=1.10
+requests
+python-multipart
+accelerate
